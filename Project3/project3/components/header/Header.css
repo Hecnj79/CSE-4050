@@ -1,0 +1,20 @@
+header {
+    background: url(https://marvel-b1-cdn.bc0a.com/f00000000296870/www.csusb.edu/sites/default/files/styles/cover_image/public/upload/image/CSUSB-NewsSlide-WildSong_Library_0.jpg?itok=OSZUu8Q8);
+    text-align: left;
+    width: 100%;
+    height: auto;
+    background-size: contain;
+    background-attachment: fixed;
+    position: relative;
+    overflow: hidden;
+    border-radius: 0 0 85% 85% / 30%;
+}
+
+header .prob3Style{
+    width: 100%;
+	height: 100%;
+	padding: 50px;
+	color: #FFF;
+	text-shadow: 1px 1px 1px #000000;
+    background-image: linear-gradient( 135deg, #0b57d969 10%, #ffffff6b 100%);
+}

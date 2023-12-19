@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Tahoma;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* gap: 4px; */
+    align-items: center;
+    height: 100vh;
+}
+
+.box div {
+    width: 100px;
+    height: 50px;
+    border-top: 1px solid #3e4354;
+    text-align: center;
+}
+
+.box div:nth-child(odd) {
+    background-color: #d7d7d7;
+}
+
+.box div:nth-child(even) {
+    background-color: #f1f1f1;
+}
+
+#item6 {
+    border: 4px solid orange;
+}

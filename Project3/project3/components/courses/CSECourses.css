@@ -1,0 +1,24 @@
+/*
+CSS for the cse4050 project #4 Problem #2 courses component
+
+Since CSS uses a global name space for classes we should use names starting with
+cse4050-courses- here.
+*/
+
+.cse4050-prob2-styling{
+    font-family: Comic Sans MS;
+    color: black;
+    background: #f4f4f4;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    display: inline-block;
+    box-sizing: border-box;
+    width: 50%;
+    overflow-x: auto;
+    border-width: 10px;
+    border-style: double;
+    border-color: rgb(81, 192, 239); 
+    border-radius: 20px; 
+}
